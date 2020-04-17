@@ -1,12 +1,9 @@
 <template>
   <div>
     <el-card class="box-card">
-      <el-breadcrumb separator-class="el-icon-arrow-right">
-        <!-- 面包屑 -->
-        <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-        <el-breadcrumb-item>用户管理</el-breadcrumb-item>
-        <el-breadcrumb-item>用户列表</el-breadcrumb-item>
-      </el-breadcrumb>
+       <crumbs left="用户管理" right="用户列表"></crumbs>
+      
+      
       <!-- 搜索框 -->
       <el-row>
         <el-col class="inputSerch">
@@ -160,6 +157,8 @@
 </template>
 
 <script>
+
+
 export default {
   name:'user',
   data(){

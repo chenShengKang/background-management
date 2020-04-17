@@ -21,6 +21,10 @@ Vue.filter('fmtdate',(v) => {
   return formaDate(v,'yyyy-MM-dd')
 })
 
+//导入全局组件
+import Crumbs from '@/components/crumbs/Crumbs'
+Vue.component(Crumbs.name,Crumbs)
+
 new Vue({
   router,
   store,
