@@ -76,9 +76,9 @@
             <i class="el-icon-position"></i>
             <span>订单管理</span>
           </template>
-          <el-menu-item index="4-1">
-            <i class="el-icon-position"></i>
-            <span>选项一</span>            
+          <el-menu-item index="/home/oder">
+            <i class="el-icon-circle-check"></i>
+            <span>订单列表</span>            
           </el-menu-item>
         </el-submenu>
          <!-- 5 -->
@@ -87,9 +87,9 @@
             <i class="el-icon-location"></i>
             <span>数据统计</span>
           </template>
-          <el-menu-item index="5-1">
+          <el-menu-item index="/home/report">
             <i class="el-icon-location"></i>
-            <span>选项一</span>            
+            <span>数据列表</span>            
           </el-menu-item>
         </el-submenu>
       </el-menu>

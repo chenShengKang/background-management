@@ -9,6 +9,8 @@ const Goods = () => import('@/views/home/child/goods/Goods')
 const GoodsAdd = () => import('@/views/home/child/goods/GoodsAdd')
 const CategoryParams = () => import('@/views/home/child/goods/CategoryParams')
 const Category = () => import('@/views/home/child/goods/Category')
+const Oder = () => import('@/views/home/child/oder/Oder')
+const Report = () => import('@/views/home/child/report/Report')
 Vue.use(VueRouter)
 
   const routes = [
@@ -61,6 +63,16 @@ Vue.use(VueRouter)
           path:'/home/category',
           name:'category',
           component:Category
+        },
+        {
+          path:'/home/oder',
+          name:'oder',
+          component:Oder
+        },
+        {
+          path:'/home/report',
+          name:'report',
+          component:Report
         }
       ]
     }
