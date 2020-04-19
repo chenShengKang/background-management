@@ -17,7 +17,6 @@ Vue.use(ElementUI);
 Vue.use(MyHttpServer)
 
 Vue.filter('fmtdate',(v) => {
-  console.log(v);
   return formaDate(v,'yyyy-MM-dd')
 })
 
